@@ -4,6 +4,7 @@ metadata:
   labels:
     app: nginx-demo-deployment
   name: nginx-demo-deployment
+  namespace: flux-workload
 spec:
   replicas: 5
   selector:
