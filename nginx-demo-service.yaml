@@ -4,7 +4,6 @@ metadata:
   labels:
     app: nginx-demo-deployment
   name: nginx-demo-svc
-  namespace: flux-workload
 spec:
   ports:
   - port: 80
